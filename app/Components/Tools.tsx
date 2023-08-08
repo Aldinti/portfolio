@@ -82,7 +82,7 @@ const Tools = (props: Props) => {
         <GoBack />
         <h1 className="md:text-4xl text-3xl lg:text-5xl font-bold">Tools</h1>
       </div>
-      <p className="pt-6 text-neutral-300">
+      <p className="pt-6 text-neutral-900">
         Productos, aplicaciones y servicios que uso.
       </p>
       <div className="mt-20 grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 sm:gap-10">
@@ -104,7 +104,7 @@ const Tools = (props: Props) => {
               </div>
               <div className="p-8 py-10">
                 <h1 className="mb-1 font-bold">{myTool.title}</h1>
-                <p className="text-neutral-400">{myTool.descrip}</p>
+                <p className="text-neutral-900">{myTool.descrip}</p>
               </div>
             </a>
           );

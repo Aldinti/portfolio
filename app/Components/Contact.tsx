@@ -14,19 +14,19 @@ const Contact = (props: Props) => {
       </div>
       <div className="flex items-baseline">
         <BsFillPersonLinesFill size={24} className="ml-2" />
-        <p className="pt-6 text-neutral-300">
+        <p className="pt-6 text-neutral-900">
           Ing. Aldo Benjamín Patiño Fernández
         </p>
       </div>
       <div className="flex items-baseline">
         <BsWhatsapp size={24} className="ml-2" />
-        <p className="pt-6 text-neutral-300">
+        <p className="pt-6 text-neutral-900">
           <a href="https://wa.me/+573012462912">+57 301 246 2912</a>
         </p>
       </div>
       <div className="flex items-baseline">
         <BiLogoGmail size={24} className="ml-2" />
-        <p className="pt-6 text-neutral-300">aldopati@gmail.com</p>
+        <p className="pt-6 text-neutral-900">aldopati@gmail.com</p>
       </div>
     </div>
   );

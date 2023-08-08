@@ -41,11 +41,11 @@ const About = (props: Props) => {
       <div className="mt-20 grid lg:grid-cols-3 sm:grid-cols-1 grid-cols-2 sm:gap-10">
       {/* <div className="flex max-md:flex-wrap gap-7 justify-between"> */}
         <div className="d p-5 relativ overflow-hidden mt-5">
-          <h1 className="text-center mt-5">Ingeniero de Sistemas</h1>
+          <h1 className="text-center mt-5 font-bold">Ingeniero de Sistemas</h1>
           <div className="flex justify-center mt-4">
             <MdEngineering className="text-pink-600" size={28} />
           </div>
-          <p className="text-left mt-10 text-neutral-300">{myAbouts.about1}</p>
+          <p className="text-left mt-10 text-neutral-800">{myAbouts.about1}</p>
           <p className="text-center  mt-10 mb-7">
             <a
               href=""
@@ -61,11 +61,11 @@ const About = (props: Props) => {
         </div>
 
         <div className="d p-5 relativ overflow-hidden mt-5">
-          <h1 className="text-center mt-5">Full Stack Developer</h1>
+          <h1 className="text-center mt-5 font-bold">Full Stack Developer</h1>
           <div className="flex justify-center mt-4">
             <MdDeveloperMode className="text-yellow-500" size={28} />
           </div>
-          <p className="text-left mt-10 text-neutral-300">
+          <p className="text-left mt-10 text-neutral-800">
             {myAbouts.about2}
             <a href="https://restcountries.com/v3.1/all"> restcountries.com</a>.
           </p>
@@ -84,11 +84,11 @@ const About = (props: Props) => {
         </div>
 
         <div className="d p-5 relativ overflow-hidden  mt-5">
-          <h1 className="text-center mt-5">Autodidacta</h1>
+          <h1 className="text-center mt-5 font-bold">Autodidacta</h1>
           <div className="flex justify-center mt-4">
             <FaBookOpenReader className="text-blue-600" size={28} />
           </div>
-          <p className="text-left mt-10 text-neutral-300">{myAbouts.about3}</p>
+          <p className="text-left mt-10 text-neutral-800">{myAbouts.about3}</p>
           <p className="text-center  mt-10 mb-7">
             <a
               href=""
@@ -104,11 +104,11 @@ const About = (props: Props) => {
         </div>
 
         <div className="d p-5 relativ overflow-hidden mt-5">
-          <h1 className="text-center mt-5">Docente</h1>
+          <h1 className="text-center mt-5 font-bold">Docente</h1>
           <div className="flex justify-center mt-4">
             <FaChalkboardTeacher className="text-green-700" size={28} />
           </div>
-          <p className="text-left mt-10 text-neutral-300">{myAbouts.about4}</p>
+          <p className="text-left mt-10 text-neutral-800">{myAbouts.about4}</p>
           <p className="text-center  mt-10 mb-7">
             <a
               href=""

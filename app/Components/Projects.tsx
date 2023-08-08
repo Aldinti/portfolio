@@ -16,7 +16,8 @@ const Projects = (props: Props) => {
           Proyectos
         </h1>
       </div>
-      <p className="pt-6 text-neutral-300">
+      <p className="pt-6">
+      {/* <p className="pt-6 text-neutral-300"> */}
         A lo largo de 8 meses, he adquirido experiencia en el desarrollo de una
         variedad de sitios web, que van desde simples páginas de aplicación o
         SPA, hasta aplicaciones complejas. Aquí hay algunos proyectos que me
@@ -34,7 +35,7 @@ const Projects = (props: Props) => {
         />
         <div className="my-10 sm:w-10/12 mx-auto">
           <h1 className="text-2xl font-bold mb-4">Landing Page</h1>
-          <div className="text-neutral-300">
+          <div /* className="text-neutral-300" */>
             Como parte del proceso de formación como Full Stack Developer,
             desarrollé la landing page de un apliación sobre los personajes de
             la serie {"Rick and Morty"} en la que se muestran dichos personajes
@@ -53,7 +54,7 @@ const Projects = (props: Props) => {
             <a
               href=""
               target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px] border-slate-500 rounded-3xl bg-neutral-800 hover:bg-neutral-700"
+              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl bg-neutral-200 hover:bg-slate-500"
             >
               Explore <BsArrowUpRight size={14} className="ml-2" />
             </a>
@@ -70,7 +71,7 @@ const Projects = (props: Props) => {
         />
         <div className="my-10 sm:w-10/12 mx-auto">
           <h1 className="text-2xl font-bold mb-4">Countries App</h1>
-          <div className="text-neutral-300">
+          <div /* className="text-neutral-300" */>
             Simple Page Aplication (SPA) a partir de la API{" "}
             <a href="https://restcountries.com/v3.1/all">
               <u>restcountries</u>
@@ -88,14 +89,14 @@ const Projects = (props: Props) => {
             <a
               href="https://deploy-aldinti.vercel.app"
               target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px] border-slate-500 rounded-3xl bg-neutral-800 hover:bg-neutral-700"
+              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl bg-neutral-200 hover:bg-slate-500"
             >
               Demo <BsArrowUpRight size={14} className="ml-2" />
             </a>
             <a
               href="https://github.com/Aldinti/PI"
               target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px] border-slate-500 rounded-3xl bg-neutral-800 hover:bg-neutral-700"
+              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl bg-neutral-200 hover:bg-slate-500"
             >
               Código <BsArrowUpRight size={14} className="ml-2" />
             </a>
@@ -112,7 +113,7 @@ const Projects = (props: Props) => {
         />
         <div className="my-10 sm:w-10/12 mx-auto">
           <h1 className="text-2xl font-bold mb-4">Parcels App</h1>
-          <div className="text-neutral-300">
+          <div /* className="text-neutral-300" */>
             Plataforma de e-commerce especializada en la venta de parcelas,
             brindando a nuestros usuarios la oportunidad de encontrar el terreno
             perfecto para sus proyectos o inversiones. Aplicamos la metodología
@@ -141,14 +142,14 @@ const Projects = (props: Props) => {
             <a
               href="https://parcelas.vercel.app"
               target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px] border-slate-500 rounded-3xl bg-neutral-800 hover:bg-neutral-700"
+              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl bg-neutral-200 hover:bg-slate-500"
             >
               Demo <BsArrowUpRight size={14} className="ml-2" />
             </a>
             <a
               href="https://github.com/LucasRibotta/Project-Parcels"
               target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px] border-slate-500 rounded-3xl bg-neutral-800 hover:bg-neutral-700"
+              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl bg-neutral-200 hover:bg-slate-500"
             >
               Código <BsArrowUpRight size={14} className="ml-2" />
             </a>
