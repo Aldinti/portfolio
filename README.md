@@ -1,4 +1,4 @@
-# portfolio
+# Aldinti's Portfolio
 Colección de los trabajos realizados como profesional a lo largo de mi trayectoria como Full Stack Developer.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
