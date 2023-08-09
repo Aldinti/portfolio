@@ -54,7 +54,7 @@ const Projects = (props: Props) => {
             <a
               href=""
               target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl bg-neutral-200 hover:bg-slate-500"
+              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl hover:bg-yellow-500"
             >
               Explore <BsArrowUpRight size={14} className="ml-2" />
             </a>
@@ -89,14 +89,14 @@ const Projects = (props: Props) => {
             <a
               href="https://deploy-aldinti.vercel.app"
               target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl bg-neutral-200 hover:bg-slate-500"
+              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl hover:bg-yellow-500"
             >
               Demo <BsArrowUpRight size={14} className="ml-2" />
             </a>
             <a
               href="https://github.com/Aldinti/PI"
               target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl bg-neutral-200 hover:bg-slate-500"
+              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl hover:bg-yellow-500"
             >
               Código <BsArrowUpRight size={14} className="ml-2" />
             </a>
@@ -142,14 +142,14 @@ const Projects = (props: Props) => {
             <a
               href="https://parcelas.vercel.app"
               target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl bg-neutral-200 hover:bg-slate-500"
+              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl hover:bg-yellow-500"
             >
               Demo <BsArrowUpRight size={14} className="ml-2" />
             </a>
             <a
               href="https://github.com/LucasRibotta/Project-Parcels"
               target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl bg-neutral-200 hover:bg-slate-500"
+              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl hover:bg-yellow-500"
             >
               Código <BsArrowUpRight size={14} className="ml-2" />
             </a>

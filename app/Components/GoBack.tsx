@@ -7,7 +7,7 @@ const GoBack = (props: Props) => {
   return (
     <div>
       {" "}
-      <a href="#home">
+      <a href="#home" className="hover:text-yellow-500">
         <TiArrowBack size={24} />
       </a>
     </div>

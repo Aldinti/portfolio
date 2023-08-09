@@ -45,7 +45,7 @@ const About = (props: Props) => {
           <div className="flex justify-center mt-4">
             <MdEngineering className="text-pink-600" size={28} />
           </div>
-          <p className="text-left mt-10 text-neutral-800">{myAbouts.about1}</p>
+          <p className="text-left mt-10">{myAbouts.about1}</p>
           <p className="text-center  mt-10 mb-7">
             <a
               href=""
@@ -65,7 +65,7 @@ const About = (props: Props) => {
           <div className="flex justify-center mt-4">
             <MdDeveloperMode className="text-yellow-500" size={28} />
           </div>
-          <p className="text-left mt-10 text-neutral-800">
+          <p className="text-left mt-10">
             {myAbouts.about2}
             <a href="https://restcountries.com/v3.1/all"> restcountries.com</a>.
           </p>
@@ -88,7 +88,7 @@ const About = (props: Props) => {
           <div className="flex justify-center mt-4">
             <FaBookOpenReader className="text-blue-600" size={28} />
           </div>
-          <p className="text-left mt-10 text-neutral-800">{myAbouts.about3}</p>
+          <p className="text-left mt-10">{myAbouts.about3}</p>
           <p className="text-center  mt-10 mb-7">
             <a
               href=""
@@ -108,7 +108,7 @@ const About = (props: Props) => {
           <div className="flex justify-center mt-4">
             <FaChalkboardTeacher className="text-green-700" size={28} />
           </div>
-          <p className="text-left mt-10 text-neutral-800">{myAbouts.about4}</p>
+          <p className="text-left mt-10">{myAbouts.about4}</p>
           <p className="text-center  mt-10 mb-7">
             <a
               href=""
