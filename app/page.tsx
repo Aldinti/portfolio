@@ -8,7 +8,6 @@ import Tools from "./Components/Tools";
 
 export default function Home() {
   return (
-    <>
       <div className="max-w-[1280px]">
         <div id="home" className="w-10/12 mx-auto pt-4">
           <Navbar />
@@ -18,31 +17,31 @@ export default function Home() {
 
         <div
           id="skills"
-          className="box w-10/12 mx-auto max-md:mt-[-50px] mt-8 mb-[-20px]"
+          className="box w-10/12 mx-auto max-md:mt-[0px] mt-8 mb-[-10px]"
         ></div>
         <Skills />
 
         <div
           id="projects"
-          className="box w-10/12 mx-auto max-md:mt-[-50px] mt-8"
+          className="box w-10/12 mx-auto max-md:mt-[0px] mt-8"
         ></div>
         <Projects />
 
         <div
           id="contact"
-          className="box w-10/12 mx-auto max-md:mt-[-50px] mt-8"
+          className="box w-10/12 mx-auto max-md:mt-[0px] mt-8"
         ></div>
         <Contact />
 
         <div
           id="tools"
-          className="box w-10/12 mx-auto max-md:mt-[-50px] mt-8"
+          className="box w-10/12 mx-auto max-md:mt-[0px] mt-8"
         ></div>
         <Tools />
 
         <div
           id="about"
-          className="box w-10/12 mx-auto max-md:mt-[-50px] mt-8"
+          className="box w-10/12 mx-auto max-md:mt-[0px] mt-8"
         ></div>
         <About />
 
@@ -54,6 +53,5 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
   );
 }
