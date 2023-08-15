@@ -18,10 +18,10 @@ const Navbar = (props: Props) => {
       </div>
       <nav
         className={`max-sm:absolute max-sm:w-full left-0 transition ease-in duration-600 ${
-          showNav ? "top-16 visible" : "max-sm:invisible top-0"
+          showNav ? "top-16 visible" : "max-sm:hidden top-0"
         }`}
       >
-        <ul className="flex items-center max-sm:text-sm justify-between max-sm:justify-around">
+        <ul className="flex flex-wrap items-center max-sm:text-sm justify-between max-sm:justify-around">
           <li
             className={`py-1 hover:bg-yellow-600 hover:text-black transition ease-in duration-300 delay-300 rounded mx-1 ${
               showNav ? "max-sm:translate-x-0" : "max-sm:translate-x-32"

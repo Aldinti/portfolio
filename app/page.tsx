@@ -8,7 +8,7 @@ import Tools from "./Components/Tools";
 
 export default function Home() {
   return (
-      <div className="max-w-[1280px]">
+      <main className="max-w-[1280px]">
         <div id="home" className="w-10/12 mx-auto pt-4">
           <Navbar />
         </div>
@@ -52,6 +52,6 @@ export default function Home() {
             <small className="mt-[2px] ml-2">2023</small>
           </div>
         </div>
-      </div>
+      </main>
   );
 }

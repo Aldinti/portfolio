@@ -6,6 +6,18 @@ import GoBack from "./GoBack";
 
 type Props = {};
 
+const myProjects = [
+  {
+    id: 1,
+    image: "/landing.png",
+    title: "Landing Page",
+    descrip: `Como parte del proceso de formación como Full Stack Developer, desarrollé la landing page de un apliación sobre los personajes de la serie {"Rick and Morty"} en la que se muestran dichos personajes en forma de cards, con la opción de ver en detalle las características de cada uno.`,
+    resources: [],
+    linkCode: "",
+    linkDemo: "",
+  },
+];
+
 const Projects = (props: Props) => {
   const [selectedId, setSelectedId] = useState<boolean>(false);
   return (
@@ -17,12 +29,11 @@ const Projects = (props: Props) => {
         </h1>
       </div>
       <p className="pt-6">
-      {/* <p className="pt-6 text-neutral-300"> */}
-        A lo largo de 8 meses, he adquirido experiencia en el desarrollo de una
-        variedad de sitios web, que van desde simples páginas de aplicación o
-        SPA, hasta aplicaciones complejas. Aquí hay algunos proyectos que me
-        gustaría presentarles, mostrando mi trabajo y logros en el campo del
-        desarrollo web.
+        {/* <p className="pt-6 text-neutral-300"> */}A lo largo de 8 meses, he
+        adquirido experiencia en el desarrollo de una variedad de sitios web,
+        que van desde simples páginas de aplicación o SPA, hasta aplicaciones
+        complejas. Aquí hay algunos proyectos que me gustaría presentarles,
+        mostrando mi trabajo y logros en el campo del desarrollo web.
       </p>
       {/* <div className='w-10/12 box1 max-md:mt-[-50px] mt-0'></div> */}
       <div className="mt-20 md:w-9/12 mx-auto ">
