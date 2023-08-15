@@ -23,7 +23,7 @@ const Container = (props: Props) => {
               src="/foto.png"
               alt=""
             />
-            <div className="h-[100%] overflow-hidden w-[100%] z-[-1] top-[0%] left-[0%] rounded-full bg-gradient-to-r from-slate-400 via-slate-700 to-slate-300 absolute"></div>
+            <div className="h-[100%] overflow-hidden w-[100%] z-[-1] top-[0%] left-[0%] rounded-full bg-gradient-to-r from-slate-900 via-slate-600 to-slate-900 absolute"></div>
           </div>
         </div>
         <div className="p-4 pl-0 mt-5 sm:mt-20">
