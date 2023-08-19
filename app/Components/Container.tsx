@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { FcDocument } from "react-icons/fc";
 import {
   AiOutlineInstagram,
   AiOutlineGithub,
@@ -17,6 +18,7 @@ const Container = (props: Props) => {
     twitter: "https://twitter.com/Aldinti",
     instagram: "https://www.instagram.com/aldinti/",
     email: "mailto:aldopati@gmail.com",
+    cv: "https://drive.google.com/file/d/1q3QJOs3r8Gv6iYbPOkN-aDeI1Hya--03/view?usp=drive_link",
   };
   return (
     <div className="lg:pt-16 pt-4 relative w-10/12 mx-auto top-9">
@@ -94,14 +96,23 @@ const Container = (props: Props) => {
                   <AiOutlineInstagram size={24} />
                 </a>
               </li>
+              <li>
+                <a
+                  href={myRS.email}
+                  target="_blank"
+                  className="hover:opacity-100 opacity-50 transition ease-in duration-150"
+                >
+                  <AiOutlineMail size={24} />
+                </a>
+              </li>
             </ul>
-            <a
-              href={myRS.email}
-              target="_blank"
-              className="hover:opacity-100 opacity-50 transition ease-in duration-150"
-            >
-              <AiOutlineMail size={24} />
-            </a>
+              <a
+                href={myRS.cv}
+                target="_blank"
+                className="hover:opacity-100 opacity-50 transition ease-in duration-150"
+              >
+                <FcDocument size={24} />
+              </a>
           </div>
         </div>
       </div>
