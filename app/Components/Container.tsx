@@ -11,6 +11,13 @@ import {
 type Props = {};
 
 const Container = (props: Props) => {
+  const myRS = {
+    linkedin: "https://www.linkedin.com/in/aldinti/",
+    github: "https://github.com/Aldinti",
+    twitter: "https://twitter.com/Aldinti",
+    instagram: "https://www.instagram.com/aldinti/",
+    email: "mailto:aldopati@gmail.com",
+  };
   return (
     <div className="lg:pt-16 pt-4 relative w-10/12 mx-auto top-9">
       <div className="md:flex items-center justify-between flex-row-reverse">
@@ -53,7 +60,7 @@ const Container = (props: Props) => {
             <ul className="flex items-center space-x-2 sm:space-x-5 mr-6 my-4 ">
               <li>
                 <a
-                  href="https://www.linkedin.com/in/aldinti/"
+                  href={myRS.linkedin}
                   target="_blank"
                   className="hover:opacity-100 opacity-50 transition ease-in duration-150"
                 >
@@ -62,7 +69,7 @@ const Container = (props: Props) => {
               </li>
               <li>
                 <a
-                  href="https://github.com/Aldinti"
+                  href={myRS.github}
                   target="_blank"
                   className="hover:opacity-100 opacity-50 transition ease-in duration-150"
                 >
@@ -71,7 +78,7 @@ const Container = (props: Props) => {
               </li>
               <li>
                 <a
-                  href="https://twitter.com/Aldinti"
+                  href={myRS.twitter}
                   target="_blank"
                   className="hover:opacity-100 opacity-50 transition ease-in duration-150"
                 >
@@ -80,7 +87,7 @@ const Container = (props: Props) => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/aldinti/"
+                  href={myRS.instagram}
                   target="_blank"
                   className="hover:opacity-100 opacity-50 transition ease-in duration-150"
                 >
@@ -89,7 +96,7 @@ const Container = (props: Props) => {
               </li>
             </ul>
             <a
-              href="mailto:aldopati@gmail.com"
+              href={myRS.email}
               target="_blank"
               className="hover:opacity-100 opacity-50 transition ease-in duration-150"
             >
