@@ -18,7 +18,7 @@ const Container = (props: Props) => {
     twitter: "https://twitter.com/Aldinti",
     instagram: "https://www.instagram.com/aldinti/",
     email: "mailto:aldopati@gmail.com",
-    cv: "https://drive.google.com/file/d/1Tx4mnnH0L2yan4IAVkMcfyT0r25MrwwT/view?usp=sharing",
+    cv: "https://1drv.ms/b/s!Au_lDWCMok1hij_cSqODAbzWTa1q?e=QbVrjK",
   };
   return (
     <div className="lg:pt-16 pt-4 relative w-10/12 mx-auto top-9">
