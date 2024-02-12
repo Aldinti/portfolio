@@ -26,6 +26,13 @@ const myTools = [
     link: "",
   },
   {
+    title: "PHP",
+    descrip:
+      "Lenguaje de código abierto, ejecutado en el servidor, generando HTML y enviándolo al cliente.",
+    image: "/php-icon.png",
+    link: "",
+  },
+  {
     title: "VS Code",
     descrip: "Editor de código fuente desarrollado por Microsoft.",
     image: "/vscode-icon.png",
