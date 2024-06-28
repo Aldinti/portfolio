@@ -15,11 +15,11 @@ export default function Home() {
         {/* <div id="home"></div> */}
         <Container />
 
-        <div
+        {/* <div
           id="skills"
           className="box w-10/12 mx-auto max-md:mt-[0px] mt-8 mb-[-10px]"
         ></div>
-        <Skills />
+        <Skills /> */}
 
         <div
           id="projects"
