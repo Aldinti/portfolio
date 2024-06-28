@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFillPersonLinesFill, BsWhatsapp } from "react-icons/bs";
+import { FaMapLocation } from "react-icons/fa6";
 import { BiLogoGmail } from "react-icons/bi";
 import GoBack from "./GoBack";
 
@@ -28,6 +29,10 @@ const Contact = (props: Props) => {
       <div className="flex items-baseline">
         <BiLogoGmail size={24} className="ml-2" />
         <p className="pt-6">aldopati@gmail.com</p>
+      </div>
+      <div className="flex items-baseline">
+        <FaMapLocation size={24} className="ml-2" />
+        <p className="pt-6">Santa Marta - Magdalena - Colombia</p>
       </div>
     </div>
   );
