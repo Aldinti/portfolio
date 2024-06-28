@@ -74,13 +74,15 @@ const Projects = (props: Props) => {
           </div>
           <div className="mt-6 inline-block">
             <a
-              href="https://parcelas.vercel.app"
-              target="_blank"
-              className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl hover:bg-yellow-500"
+            rel="noopener"
+            href="https://parcelas.vercel.app"
+            target="_blank"
+            className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl hover:bg-yellow-500"
             >
               Demo <BsArrowUpRight size={14} className="ml-2" />
             </a>
             <a
+              rel="noopener"
               href="https://github.com/LucasRibotta/Project-Parcels"
               target="_blank"
               className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl hover:bg-yellow-500"
@@ -117,6 +119,7 @@ const Projects = (props: Props) => {
           </div>
           <div className="mt-6 inline-block">
             <a
+              rel="noopener"
               href="https://deploy-aldinti.vercel.app"
               target="_blank"
               className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl hover:bg-yellow-500"
@@ -124,6 +127,7 @@ const Projects = (props: Props) => {
               Demo <BsArrowUpRight size={14} className="ml-2" />
             </a>
             <a
+              rel="noopener"
               href="https://github.com/Aldinti/PI"
               target="_blank"
               className="flex items-center px-4 py-1 border-[0.5px]  border-slate-500 rounded-3xl hover:bg-yellow-500"
@@ -169,7 +173,7 @@ const Projects = (props: Props) => {
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 };

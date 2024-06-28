@@ -1,6 +1,6 @@
 import Navbar from "./Components/Navbar";
 import Container from "./Components/Container";
-import Skills from "./Components/Skills";
+// import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import About from "./Components/About";

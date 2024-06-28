@@ -31,7 +31,7 @@ const Navbar = (props: Props) => {
               Home
             </a>
           </li>
-          <li
+          {/* <li
             className={`py-1 hover:bg-yellow-600 hover:text-black transition ease-in duration-300 delay-300 rounded mx-1 ${
               showNav ? "max-sm:translate-x-0" : "max-sm:translate-x-40"
             }`}
@@ -39,7 +39,7 @@ const Navbar = (props: Props) => {
             <a href="#skills" className="px-2">
               Skills
             </a>
-          </li>
+          </li> */}
           <li
             className={`py-1 hover:bg-yellow-600 hover:text-black transition ease-in duration-300 delay-300 rounded mx-1 ${
               showNav ? "max-sm:translate-x-0" : "max-sm:translate-x-48"
